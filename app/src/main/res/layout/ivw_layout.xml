@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_path"
+        android:text="/sdcard/F002_001.wav"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_param"
+        android:text="res=0,mlp_resource=ivwRes/mlp.19.mid_nocmn.bin,filler_resource=ivwRes/state_filler_3000s_kladi_1179.txt,keyword_resource=ivwRes/xiaoainihao.irf,gram_resource=ivwRes/gram_CN_3004.bin,content_resource=ivwRes/content.txt"/>
+
+    <Button
+        android:id="@+id/init"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="init" />
+
+    <Button
+        android:id="@+id/start_record"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="startRecord" />
+
+    <Button
+        android:id="@+id/stop_record"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="stopRecord" />
+
+    <Button
+        android:id="@+id/start_audio"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startAudio(文件唤醒)" />
+
+    <Button
+        android:id="@+id/test"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test（文件夹唤醒）" />
+
+    <Button
+        android:id="@+id/uninit"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="uninit" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:text="调用前必须初始化，只能初始化一次，初始化多次会有异常"
+        android:textSize="20dp" />
+
+</LinearLayout>
+</ScrollView>

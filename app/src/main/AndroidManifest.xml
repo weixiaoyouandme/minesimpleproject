@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iflytek.aipsdkdemo">
+
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.iflytek.aipsdkdemo.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".session.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iflytek.aipsdkdemo.record.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iflytek.aipsdkdemo.unspeex.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".personal.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asr.IatAudioDemo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asr.IatLocalDemo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asr.IatDemo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asr.IatLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".translate.TestActivity" />
+        <activity
+            android:name=".tts.TtsDemo"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".tts.TtsLoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".nlp.NlpLoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".nlp.NlpDemo"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ivw.IvwActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+			android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+
+        <meta-data android:name="android.max_aspect" android:value="2.4" />
+    </application>
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+</manifest>

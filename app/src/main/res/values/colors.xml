@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!-- 画面背景色 -->
+
+    <!-- 分割线背景色 -->
+
+    <!-- 控件按下时显示的颜色 -->
+
+    <!-- 用户引导页 -->
+    <color name="splish_text_color_highlight">#8f8f8f</color>
+    <color name="splish_text_color">#f4f4f4</color>
+
+    <!-- 语音问答界面 -->
+    <color name="chat_text_color">#636363</color>
+
+    <!-- 更多菜单相关 -->
+
+</resources>

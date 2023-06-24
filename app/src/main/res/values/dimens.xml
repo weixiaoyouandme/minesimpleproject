@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="splish_into_btn_w">140dp</dimen>
+    <dimen name="splish_into_marginBottom">60dp</dimen>
+    <dimen name="splish_server_edit_w">200dp</dimen>
+    <dimen name="splish_server_edit_marginBottom">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

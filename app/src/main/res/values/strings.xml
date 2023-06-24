@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">AIPSDKDemo</string>
+    <string name="appid">pc20onli</string>
+    <string name="text_tts_source">语音合成，又称文语转换技术，它涉及声学、语言学、数字信号处理、计算机科学等多个学科技术，是中文信息处理领域的一项前沿技术，解决的主要问题就是如何将文字信息转化为可听的声音信息，也即让机器像人一样开口说话。</string>
+    <string name="text_begin">开始识别&#8230;</string>
+    <string name="tts_default_value">0</string>
+    <string-array name="stream_entries">
+        <item>通话</item>
+        <item>系统</item>
+        <item>铃声</item>
+        <item>音乐</item>
+        <item>闹铃</item>
+        <item>通知</item>
+    </string-array>
+    <string-array name="stream_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <!-- 合成 -->
+    <string-array name="voicer_cloud_entries">
+        <item>艳萍</item>
+        <item>宇峰</item>
+        <item>楠楠（童声）</item>
+        <item>晓婧</item>
+        <item>嘉嘉</item>
+        <item>晓倩（东北）</item>
+        <item>老马</item>
+        <item>晓蓉（四川）</item>
+        <item>小美（粤语）</item>
+        <item>John</item>
+        <item>Catherine</item>
+        <item>晓琳（台湾）</item>
+        <item>晓梦</item>
+        <item>小强（湖南）</item>
+        <item>小坤（河南）</item>
+        <item>许久</item>
+        <item>许多</item>
+        <item>小萍</item>
+        <item>唐老鸭</item>
+        <item>徐小宝</item>
+        <item>大龙（粤语）</item>
+        <item>Tom</item>
+        <item>user define</item>
+        <item>李瑞英</item>
+        <item>吴师奇</item>
+        <item>小瑶</item>
+        <item>小洋</item>
+        <item>李立宏</item>
+        <item>小辉</item>
+        <item>小波</item>
+        <item>小丸子</item>
+        <item>蜡笔小新</item>
+        <item>小马</item>
+        <item>小玲（林志玲模仿）</item>
+        <item>增值嘉嘉（活泼）</item>
+        <item>小雪</item>
+        <item>小圆</item>
+        <item>紫琪</item>
+        <item>叶芳故事</item>
+        <item>小洋故事</item>
+        <item>小彬（小说）</item>
+        <item>孟春（小说）</item>
+        <item>开心熊宝</item>
+        <item>小莹（陕西）</item>
+        <item>xiaoaiNeutral</item>
+        <item>xiaoaiHappy</item>
+        <item>xiaoaiSad</item>
+        <item>郭德纲（高德）</item>
+        <item>林志玲（高德）</item>
+    </string-array>
+    <string-array name="voicer_cloud_values">
+        <item>30003</item>
+        <item>30004</item>
+        <item>30007</item>
+        <item>30008</item>
+        <item>30009</item>
+        <item>30011</item>
+        <item>30012</item>
+        <item>30014</item>
+        <item>30015</item>
+        <item>30017</item>
+        <item>30020</item>
+        <item>30022</item>
+        <item>30023</item>
+        <item>30024</item>
+        <item>30025</item>
+        <item>30051</item>
+        <item>30052</item>
+        <item>30053</item>
+        <item>30054</item>
+        <item>30055</item>
+        <item>30056</item>
+        <item>30057</item>
+        <item>30099</item>
+        <item>50001</item>
+        <item>50002</item>
+        <item>50003</item>
+        <item>50004</item>
+        <item>50005</item>
+        <item>50006</item>
+        <item>50007</item>
+        <item>50008</item>
+        <item>50009</item>
+        <item>50010</item>
+        <item>50011</item>
+        <item>50012</item>
+        <item>50110</item>
+        <item>50120</item>
+        <item>51010</item>
+        <item>51020</item>
+        <item>51030</item>
+        <item>51040</item>
+        <item>51050</item>
+        <item>51070</item>
+        <item>51080</item>
+        <item>51110</item>
+        <item>51111</item>
+        <item>51112</item>
+        <item>52005</item>
+        <item>52010</item>
+    </string-array>
+    <string-array name="voicer_local_entries">
+        <item>小燕</item>
+        <item>小荣</item>
+        <item>小强</item>
+        <item>小倩</item>
+        <item>小梅</item>
+        <item>小林</item>
+        <item>小坤</item>
+        <item>小静</item>
+        <item>小峰</item>
+        <item>楠楠</item>
+        <item>catherine</item>
+    </string-array>
+    <string-array name="voicer_local_values">
+        <item>xiaoyan</item>
+        <item>xiaorong</item>
+        <item>xiaoqiang</item>
+        <item>xiaoqian</item>
+        <item>xiaomei</item>
+        <item>xiaolin</item>
+        <item>xiaokun</item>
+        <item>xiaojing</item>
+        <item>xiaofeng</item>
+        <item>nannan</item>
+        <item>catherine</item>
+    </string-array>
+    <string name="tts_toast_format" formatted="false">缓冲进度为%d%%，播放进度为%f%%</string>
+    <string name="input_server_ip_prompt">请输入服务器IP地址</string>
+    <string name="click_into">点击进入</string>
+    <string name="click_btn_start">开始</string>
+    <string name="nlpedittext">语义文本</string>
+    <string name="rcg_params_local">extend_params={"\"params\"":"\"eos=30000,bos=30000\""},appid=pc20onli,time_out=3,svc=iat,auf=audio/L16;rate=16000,aue=raw,type=3,uid=660Y5r,engine_type=local</string>
+
+    <string name="rcg_params">extend_params={"\"params\"":"\"eos=30000,bos=30000\""},appid=pc20onli,url=172.31.3.91:1028,time_out=3,svc=iat,auf=audio/L16;rate=16000,aue=raw,type=1,uid=660Y5r,mi=80</string>
+
+    <string name="nlp_params">extend_params={"\"params\"":"\"eos=30000,bos=30000\""},appid=pc20onli,url=172.31.3.127:1028,time_out=3,svc=iatnlp,auf=audio/L16;rate=16000,aue=raw,type=1,uid=660Y5r</string>
+  
+    <string name="tts_params">engine_type=cloud,svc=tts,uid=65040,aue=raw,vid=65040,url=172.31.3.91:1028,appid=pc20onli,auf=4</string>
+
+    <string name="local_url">"svc=tts,vid=null,engine_type=local,url=172.31.3.84:1033/iat/,appid=pc20onli,uid=660y0,res=0,common=tts/common.jet,speaker=tts/nannan.jet,output=pcm"</string>
+
+    <string name="https_nlp_params">svc=nlp,url=172.31.3.127:1028,appid=pc20onli,username=universal,org=1000</string>
+
+    <string name="trans_params">extend_params={"\"params\"":"\"eos=30000,bos=30000\""},appid=trans001,url=172.31.3.127:1028,svc=src,scenes=iat;itr,scenes_params={"\"iat\"":"\"svc=iat,auf=audio/L16;rate=16000,aue=raw,type=1,uid=660Y5r"\"|\""itr\"":"\"type=cnug\""}</string>
+    <string name="title_activity_local_iat">LocalIatActivity</string>
+    <string name="title_activity_select_mode">SelectMode</string>
+    <string name="title_activity_digit_mode">DigitMode</string>
+    <string name="title_activity_free_mode">FreeMode</string>
+
+</resources>
