@@ -2,7 +2,6 @@ package com.iflytek.aipsdkdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 
 import com.iflytek.aipsdkdemo.util.PermissionsUtil;
 import com.iflytek.util.Logs;
