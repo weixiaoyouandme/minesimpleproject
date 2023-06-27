@@ -149,7 +149,7 @@ public class IatAudioDemo extends Activity implements OnClickListener, Permissio
     }
 
     /**
-     * 初始化监听器。
+     * 初始化监听器，此处需要注意
      */
     private InitListener mInitListener = new InitListener() {
 
